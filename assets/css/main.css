@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #090F12 url("images/bg4.png") bottom left;
+		background: #348cb2 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -804,8 +804,8 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 500px auto;
-			width: 500px;
+			background-size: 1500px auto;
+			width: 4500px;
 		} }
 
 /* Normal */
@@ -1079,3 +1079,29 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
