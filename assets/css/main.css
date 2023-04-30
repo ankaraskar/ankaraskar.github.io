@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #0d445c url("images/bg.jpg") bottom left;
+		/* background: #0d445c url("images/bg.jpg") bottom left; */
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -530,6 +530,15 @@ input, select, textarea {
 		}
 	}
 
+	#reel {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color: black;
+	}
+
 	#header {
 		-moz-animation: header 1s 2.25s forwards;
 		-webkit-animation: header 1s 2.25s forwards;
@@ -548,26 +557,30 @@ input, select, textarea {
 		opacity: 0;
 		position: relative;
 		text-align: center;
-		top: -1em;
+		top: 0.3em;
 		vertical-align: middle;
 		width: 90%;
+		height: 100%;
 	}
 
 		#header h1 {
-			font-size: 4.35em;
-			font-weight: 900;
+			font-size: 3em;
+			font-weight: 700;
 			letter-spacing: -0.035em;
-			line-height: 0.5em;
+			line-height: 0.8em;
 		}
 
 		#header p {
-			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
+			font-size: 1em;
+			/* margin: 0.75em 0 0.25em 0; */
 			opacity: 0.75;
 		}
 
 		#header nav {
 			margin: 1.5em 0 0 0;
+			position: absolute;
+			width: 100%;
+			bottom: 15%;
 		}
 
 			#header nav li {
@@ -584,12 +597,12 @@ input, select, textarea {
 				-ms-transform: translate3d(0,0,0);
 				transform: translate3d(0,0,0);
 				display: inline-block;
-				height: 5.35em;
-				line-height: 5.885em;
+				height: 3em;
+				line-height: 3em;
 				opacity: 0;
 				position: relative;
 				top: 0;
-				width: 5.35em;
+				width: 2.5em;
 			}
 
 				#header nav li:nth-child(1) {
@@ -677,7 +690,7 @@ input, select, textarea {
 					border-radius: 100%;
 					border: solid 1px #fff;
 					display: block;
-					font-size: 1.75em;
+					font-size: 0.8em;
 					height: 2.5em;
 					line-height: 2.5em;
 					position: relative;
